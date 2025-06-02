@@ -2,9 +2,12 @@ from pathlib import Path
 import os
 from decouple import config
 
+
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 SECRET_KEY = config('SECRET_KEY', default='dev-secret')
+
+OPENAI_API_KEY = config("OPENAI_API_KEY", default=None)
 
 INSTALLED_APPS = [
     'django.contrib.admin',
