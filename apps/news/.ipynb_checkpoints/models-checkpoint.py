@@ -2,7 +2,7 @@ from django.db import models
 
 class Source(models.Model):
     name = models.CharField(max_length=255)
-    url = models.URLField()
+    url = models.URLField(max_length=500, unique=True)
     source_type = models.CharField(
         max_length=50,
         choices=[
@@ -19,7 +19,7 @@ class Source(models.Model):
 class Article(models.Model):
     source = models.ForeignKey(Source, on_delete=models.CASCADE)
     title = models.TextField()
-    url = models.URLField(unique=True)
+    url = models.URLField(max_length=500, unique=True)
     published_at = models.DateTimeField()
     seen_at = models.DateTimeField(auto_now_add=True)
     content = models.TextField()
