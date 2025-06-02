@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.postgres.fields import JSONField  # for Postgres
 
 class Source(models.Model):
     name = models.CharField(max_length=255)
@@ -26,6 +27,11 @@ class Article(models.Model):
     tags = models.JSONField(default=list)
     is_duplicate = models.BooleanField(default=False)
     summary = models.TextField(blank=True, null=True)
+    summary_structured = models.JSONField(null=True, blank=True)
+
 
     def __str__(self):
         return self.title
+
+
+    
