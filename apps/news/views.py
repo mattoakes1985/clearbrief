@@ -1,22 +1,26 @@
-# apps/news/views.py
-
 from django.shortcuts import render
 from apps.news.models import Article
+from apps.news.services.summarisation import summarise_article
+from apps.news.services.tagging import tag_article
+import pprint
 
 def digest_preview(request):
     article = Article.objects.latest("published_at")
-    summary = article.summary_structured or {}
+    summary = summarise_article(article)
+    tags = tag_article(article)
 
     card = {
-        "headline": summary.get("headline", article.title),
-        "signal": summary.get("signal", ""),
-        "context": summary.get("context", ""),
-        "action": summary.get("action", ""),
-        "entities": summary.get("tags", {}).get("entities", []),
-        "sentiment": summary.get("tags", {}).get("sentiment", ""),
-        "topics": summary.get("tags", {}).get("topics", []),  # Optional
-        "url": article.url,
-        "published_at": article.published_at,
+        "headline": summary.get("headline"),
+        "signal": summary.get("signal"),
+        "context": summary.get("context"),
+        "action": summary.get("action"),
+        "sentiment": tags.get("sentiment", "unknown"),
+        "entities": tags.get("entities", []),
+        "published_at": summary.get("published_at"),
+        "url": summary.get("source_url")
     }
 
-    return render(request, "news/digest_card.html", {"card": card})
+    print("\n=== DEBUG: Final card passed to template ===")
+    pprint.pprint(card)
+
+    return render(request, "news/digest_preview.html", {"card": card})

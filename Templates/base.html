@@ -1,0 +1,25 @@
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>ClearBrief</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+    <nav class="bg-white border-b shadow px-6 py-4">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <div class="text-lg font-bold">ClearBrief</div>
+        <div class="space-x-4">
+          <a href="#" class="text-blue-600 hover:underline">Home</a>
+          <a href="/digest-preview/" class="text-blue-600 hover:underline">Your Briefing</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto mt-6 px-4">
+      {% block content %}
+      {% endblock %}
+    </main>
+  </body>
+</html>

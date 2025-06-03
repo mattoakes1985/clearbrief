@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Your Briefing{% endblock %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto p-6 bg-white shadow-md rounded-md mt-6">
+  <h1 class="text-2xl font-bold mb-4">{{ card.headline }}</h1>
+
+  <div class="mb-4">
+    <p class="mb-2"><strong class="text-gray-700">Signal:</strong> {{ card.signal }}</p>
+    <p class="mb-2"><strong class="text-gray-700">Context:</strong> {{ card.context }}</p>
+    <p class="mb-2"><strong class="text-gray-700">Action:</strong> {{ card.action }}</p>
+  </div>
+
+  <div class="mb-4">
+    <p class="mb-1"><strong class="text-gray-700">Sentiment:</strong> 
+      <span class="capitalize font-semibold {{ card.sentiment }}">
+        {{ card.sentiment }}
+      </span>
+    </p>
+  </div>
+
+  {% if card.entities %}
+  <div class="mb-4">
+    <strong class="text-gray-700">Tags:</strong>
+    <table class="table-auto mt-2 border border-gray-300 w-full text-sm">
+      <thead class="bg-gray-100">
+        <tr>
+          <th class="border px-2 py-1 text-left">Label</th>
+          <th class="border px-2 py-1 text-left">Entity</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for label, value in card.entities %}
+        <tr>
+          <td class="border px-2 py-1">{{ label }}</td>
+          <td class="border px-2 py-1">{{ value }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+
+  <p class="text-xs text-gray-500 mt-4">
+    Published: {{ card.published_at|date:"j M Y, g:i a" }} |
+    <a href="{{ card.url }}" target="_blank" class="underline text-blue-600">View Source</a>
+  </p>
+</div>
+{% endblock %}
