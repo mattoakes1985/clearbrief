@@ -1,0 +1,315 @@
+
+------------------------------------------------------------
+Name       : Al Jazeera
+Type       : news
+URL        : https://www.aljazeera.com/xml/rss/all.xml
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : BBC News RSS
+Type       : rss
+URL        : https://feeds.bbci.co.uk/news/rss.xml
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : BMJ News
+Type       : rss
+URL        : https://www.bmj.com/rss/news.xml
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : Bellingcat (OSINT)
+Type       : rss
+URL        : https://www.bellingcat.com/feed/
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : CDC Newsroom
+Type       : rss
+URL        : https://tools.cdc.gov/api/v2/resources/media/404952.rss
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : Conflict Monitor
+Type       : rss
+URL        : https://acleddata.com/data-export-tool/
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : Daily Mail
+Type       : news
+URL        : https://www.dailymail.co.uk/articles.rss
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : Data.Gov.Uk
+Type       : gov
+URL        : https://data.gov.uk/
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : Financial Times
+Type       : news
+URL        : https://www.ft.com/world
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : GNews
+Type       : news
+URL        : https://gnews.io/api/v4/top-headlines?token=YOUR_API_KEY&lang=en
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : Government Think Tanks
+Type       : gov
+URL        : https://www.instituteforgovernment.org.uk/rss
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : NHIR
+Type       : rss
+URL        : https://evidence.nihr.ac.uk/rss/
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : NHS Digital
+Type       : rss
+URL        : https://digital.nhs.uk/news/rss
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : NHS England Blogs
+Type       : gov
+URL        : https://www.england.nhs.uk/blog/feed/
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : NHSE Statistical Publications
+Type       : gov
+URL        : https://digital.nhs.uk/feed/pubfeed.xml
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : ONS
+Type       : gov
+URL        : https://www.ons.gov.uk/rss/
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : PHE Fingertips
+Type       : gov
+URL        : https://fingertips.phe.org.uk/api
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : Pushshift Reddit API
+Type       : social
+URL        : https://pushshift.io/
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : Reuters
+Type       : rss
+URL        : https://www.reutersagency.com/feed/?best-sectors=world&post_type=best
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : Stratfor
+Type       : rss
+URL        : https://worldview.stratfor.com/all-content/feed
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : The Guardian World News
+Type       : rss
+URL        : https://www.theguardian.com/world/rss
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : The Spectator
+Type       : news
+URL        : https://www.spectator.co.uk/feed/
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : The Telegraph
+Type       : news
+URL        : https://www.telegraph.co.uk/rss.xml
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : The Times
+Type       : news
+URL        : https://www.thetimes.co.uk
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : UK Parliament News
+Type       : gov
+URL        : https://www.parliament.uk/rss/news/
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : UKHSA
+Type       : gov
+URL        : https://www.gov.uk/government/collections/syndromic-surveillance-systems-and-analyses
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : UN Data Portal
+Type       : gov
+URL        : https://data.un.org/
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : WHO
+Type       : gov
+URL        : https://www.who.int/data/gho
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : WHO Disease Outbreaks
+Type       : rss
+URL        : https://www.who.int/feeds/entity/csr/don/en/rss.xml
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : World Bank
+Type       : rss
+URL        : https://data.worldbank.org/
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : World Bank API
+Type       : news
+URL        : https://api.worldbank.org/v2/country/GB/indicator/SP.POP.TOTL?format=json
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : bBC World News
+Type       : news
+URL        : http://feeds.bbci.co.uk/news/world/rss.xml
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : factba.se
+Type       : social
+URL        : https://factba.se/developers
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : open corporates api
+Type       : rss
+URL        : https://api.opencorporates.com/
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
+
+------------------------------------------------------------
+Name       : open threat exchange
+Type       : news
+URL        : https://otx.alienvault.com/api
+Active     : Yes
+Trust Score: 0.5
+Last Fetched: None
+------------------------------------------------------------
